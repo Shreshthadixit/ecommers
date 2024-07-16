@@ -2,7 +2,7 @@ import React  from 'react'
 import { useLocation } from 'react-router-dom'
 
 const Single = () => {
-  let location=useLocation()
+  let location=useLocation();
     console.log(location.state)
   return (
     <div className='row m-0 p-0 mt-4'>
