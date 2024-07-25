@@ -7,9 +7,9 @@ const Single = () => {
   return (
     <div className='row m-0 p-0 mt-4'>
       <div className='col-md-6 d-flex justify-content-center'>
-        <img src={location.state.thumbnail}alt=''></img>
+      <img src={location.state.thumbnail}alt=''></img>
       </div>
-      <div className='col-mdf-6'>
+      <div className='col-md-6'>
         <h3>Title:{location.state.title}</h3>
         <h3>Brand:{location.state.brand}</h3>
         <h3>Category{location.state.category}</h3>

@@ -28,8 +28,7 @@ const Cart = (props) => {
 
 
 const handleDecriment =(ele,i)=>{
-
-  console.log(ele)
+ console.log(ele)
   console.log(i)
   
   let updatedObj = {

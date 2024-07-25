@@ -1,0 +1,20 @@
+.navbar{
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.authPage{
+    width: 100%;
+    height: calc(100vh - 56px);
+    padding-top: 30px;
+    background-image: url("https://t4.ftcdn.net/jpg/07/64/55/75/360_F_764557526_HlwV6rYpIxrfhrmlpTzl74INFoMmJs9Z.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
